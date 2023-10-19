@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Dito Lambari</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        hgroup > h1 {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #FF5733;
+        }
+        hgroup a {
+            color: #FF5733;
+            text-decoration: none;
+        }
+        h1 ~ h2 {
+            font-size: 24px;
+            margin: 16px 0;
+            color: #333;
+        }
+        nav > ul {
+            margin-left: 20px;
+        }
+       
+        nav > ul > li:nth-child(3) {
+            background: #319141;
+        }
+        nav > ul > li:nth-child(3) a {
+            color: #fff;
+        }
+        header {
+            background: #319141;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .receita {
+            background: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .receita h3 {
+            font-size: 24px;
+            color: #FF5733;
+        }
+        .receita img {
+            max-width: 80%;
+            height: auto;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="home">
+    <header class="topo">
+        <hgroup>
+            <h1><a href="C:\Users\Aluno\Documents\DITO LAMB\Dito.html">Dito Lambari</a></h1>
+            <h2>Descubra o Sabor da Cozinha - Dito Lambari</h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <a href="sobre.html">Sobre Nós - </a>
+                <a href="receitas.html">Receitas - </a>
+                <a href="contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="receita">
+        <h3>MARIA IZABEL</h3>
+        <p>Este prato é conhecido pelos peões pantaneiros como “quebra-torto”, nome dado à primeira refeição do dia, por ser substanciosa, sempre na base do arroz com pedaços de carne-seca.</p>
+        <img src="C:\Users\Aluno\Documents\DITO LAMB\mariaIzabel.jpeg" alt="Maria Izabel">
+        
+    </div>
+
+    <div class="receita">
+        <h3>FAROFA DE BANANA</h3>
+        <p>Sendo um dos alimentos mais completos e baratos, a banana é uma fruta muito consumida no país. No Mato Grosso, uma cidade que se destaca no plantio desta rica fruta é Nossa Senhora do Livramento, localizada a 25 km de Cuiabá. Sua população foi carinhosamente apelidada de “papa-banana”, por estar voltada para o cultivo e produção de produtos derivados da banana.</p>
+        <img src="C:\Users\Aluno\Documents\DITO LAMB\farofaDeBanana.jpeg"  alt="Farofa de Banana">
+        
+    </div>
+
+    <div class="receita">
+        <h3>ARROZ COM PEQUI</h3>
+        <p>O ar da região e das cozinhas do Cerrado recende ao perfume do pequi. Prepare está receita típica de arroz com pequi.</p>
+        <img src="C:\Users\Aluno\Documents\DITO LAMB\arrozComPequi.jpg" alt="Arroz com Pequi">
+        
+    </div>
+
+    <footer class="rodape">
+        <p>&copy; 2023 DITO LAMBARI. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
