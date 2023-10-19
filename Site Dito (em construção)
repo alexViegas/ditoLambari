@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Dito Lambari</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        hgroup > h1 {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #FF5733;
+        }
+        hgroup a {
+            color: #FF5733;
+            text-decoration: none;
+        }
+        h1 ~ h2 {
+            font-size: 24px;
+            margin: 16px 0;
+            color: #333;
+        }
+        nav > ul {
+            margin-left: 20px;
+        }
+        nav > ul > li:first-child > a {
+            color: #FF5733;
+            text-decoration: none;
+        }
+        nav > ul > li:first-child > a:hover {
+            color: #FF8C00;
+            text-decoration: underline;
+        }
+        nav > ul > li:first-child {
+            font-size: 20px;
+            list-style-type: square;
+        }
+        nav > ul > li:nth-child(3) {
+            background: #319141;
+        }
+        nav > ul > li:nth-child(3) a {
+            color: #fff;
+        }
+        header {
+            background: #319141;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="home">
+    <header class="topo">
+        <hgroup>
+            <h1><a href="/">Dito Lambari</a></h1>
+            <h2>Descubra o Sabor da Cozinha - Dito Lambari</h2>
+            <h2> Bem-vindo ao Site Dito Lambari!</h2>
+            <h2>Descubra a riqueza da culinária mato-grossense, um verdadeiro tesouro escondido no coração do Brasil. Prepare-se para uma jornada gastronômica única, explorando os pratos tradicionais que representam a essência e a diversidade deste estado incrível.</h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><a class="corrente" href="C:\Users\Aluno\Documents\DITO LAMB\Dito.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="C:\Users\Aluno\Documents\DITO LAMB\receitas.html">Receitas</li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <footer class="rodape">
+        <p>&copy; 2023 DITO LAMBARI. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
